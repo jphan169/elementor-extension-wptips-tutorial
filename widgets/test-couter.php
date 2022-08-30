@@ -1,5 +1,5 @@
 <?php
-namespace Elementor;
+namespace WPTips_Elementor\Widgets
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
