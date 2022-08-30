@@ -15,7 +15,7 @@ use Elementor\Core\Kits\Documents\Tabs\Global_Typography;
  *
  * @since 1.0.0
  */
-class Widget_Counter extends Widget_Base {
+class Test_Widget_Counter extends Widget_Base {
 
 	/**
 	 * Get widget name.
