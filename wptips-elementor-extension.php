@@ -278,11 +278,11 @@ final class WPTips_Elementor_Extension
         // Include Widget files
         require_once __DIR__ . '/widgets/image-box.php';
         require_once __DIR__ . '/widgets/test-widget.php';
-
+        require_once __DIR__ . '/widgets/test-counter.php';
         // Register widget
         \Elementor\Plugin::instance()->widgets_manager->register_widget_type(new Widgets\Widget_WPTips_Image_Box());
         \Elementor\Plugin::instance()->widgets_manager->register_widget_type(new Widgets\Elementor_oEmbed_Widget());
-
+        \Elementor\Plugin::instance()->widgets_manager->register_widget_type(new Widgets\Test_Counter());
     }
 
     /**
