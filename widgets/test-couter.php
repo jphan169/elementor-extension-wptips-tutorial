@@ -28,7 +28,7 @@ class Widget_Counter extends Widget_Base {
 	 * @return string Widget name.
 	 */
 	public function get_name() {
-		return 'counter';
+		return 'test-counter';
 	}
 
 	/**
@@ -42,7 +42,7 @@ class Widget_Counter extends Widget_Base {
 	 * @return string Widget title.
 	 */
 	public function get_title() {
-		return esc_html__( 'Counter', 'elementor' );
+		return esc_html__( 'Test Counter', 'elementor' );
 	}
 
 	/**
